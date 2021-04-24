@@ -1,9 +1,20 @@
 <html>
-<head>
-<title>Your Perfect Car</title>
-</head>
-<body>
-<h1>Get your prefect car now</h1>
-<button>Click me</button>
-</body>
+  <head>
+    <title>Perfect Car</title>
+    <style>
+    body {
+        background-color: gray;
+      }
+      body{
+        text-align: center;
+        color: darkblue;
+      }
+      </style>
+  </head>
+  <body>
+    <h1>Your Perfect Car</h1>
+    <h3>Get your prefect car now</h3>
+    <button type="button" id="button" onclick="document.getElementById('car').innerHTML = getCar();">Click Now</button>
+    <p id="car"></p>
+  </body>
 </html>
